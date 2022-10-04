@@ -1,2 +1,2 @@
-# YomazaY86.github.io
+# Андрей Виноградов
 Education by Adrew B

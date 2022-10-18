@@ -653,3 +653,16 @@
     text-align: center;
 }
 
+.footer {
+    background: #344051;
+    margin: 0 auto;
+    width: 1920px;
+    text-align: center;
+}
+
+.footer p {
+    color: #fff;
+    letter-spacing: -1.25px;
+    line-height: 90px;
+    
+}

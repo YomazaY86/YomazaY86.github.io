@@ -39,9 +39,7 @@
 				<a class="work" href="#">Мои работы</a>
 			</div>
 		</div>
-		<div class="image">
-			<img class="guy" src="img\Парень.png" alt="Фотография">
-		</div>
+	
 	</main>
 	
 	<section class="about_me">
@@ -61,13 +59,9 @@
 					</div>
 			</div>
 			<a class="download_button" href="#" download="download.pdf">
-				<div class="downlaod_wrapper">
-					<div class="download_icon">
-						<img  src="img/downloadICO.png">
-					</div>			
-					<p>Скачать резюме</p>
-						
-					</div>	
+				<div class="download_button__wrapper">
+					<img  src="img/downloadICO.png">
+					<p>	Скачать резюме </p>
 				</div>
 			</a>
 		</div>
@@ -245,10 +239,10 @@
 
 			<form class="form" action="#">
 				<div class="input_area">
-					<input class="input" name="a" name="1" id="" placeholder="Имя">
-					<input class="input" type="mail" name="1" id="" placeholder="Email">
+					<input class="input" name="a" name="1" id="" placeholder="Имя" required autocomplete="">
+					<input class="input" type="mail" name="1" id="" placeholder="Email" required autocomplete="">
 				</div>
-				<textarea class="textarea" name="Textarea" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+				<textarea class="textarea" name="Textarea" id="" cols="30" rows="10" placeholder="Сообщение" required></textarea>
 				<input class="input_button" type="submit" name="submit" id="" value="Отправить">
 			</form>
 		</div>
